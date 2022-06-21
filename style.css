@@ -1,0 +1,512 @@
+@import url(//db.onlinewebfonts.com/c/91a5955cc54b797072f2d4f48de8a362?family=TCCC-UnityText);
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 125px;
+    padding: 8px,16px,0px;
+    text-align: center;
+    position: static;
+    
+}
+.logoset{
+    width: 100%;
+    height: 73px;
+    padding: 0px ;
+    display: flex;
+    justify-content: center;
+
+}
+.logoapper{
+    width: 360.7px;
+    height: 50px;
+    padding: 8px 0px 5px 12px;
+    text-align: center;
+    
+}
+#logoapper img{
+    width: 315.5px;
+    height: 35px;
+    
+}
+.tabshead{
+    width: 100%px;
+    height: 39px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.tabsinner{
+    
+    width: 960.55px;
+    height: 39px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.menuinner{
+    height: 39px;
+    width: 154.5px;
+    padding: 4px 13px 0px;
+    display: inline;
+}
+
+.dropdown{
+    display: block;
+    z-index: 5;
+}
+.menuouter{
+    width: 118px;
+    height: 35px;
+    text-decoration: none;
+    font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.375rem;
+    color: #333333;
+
+
+}
+.menuoutering{
+    height: 39px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.menuinner1 img{
+    height: 20px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+}
+.menuinner2{
+height: 25px;
+width: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+.wastereportbody{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-content: center;
+    background-color: #ffffcc;
+}
+.waste{
+    margin: auto;
+    font-family: "TCCC-UnityText-Medium", "TCCC-UnityText", sans-serif ;
+    font-style: normal;
+    line-height: 1.375rem ;
+    font-size: 1rem ;
+    cursor: pointer;
+    position: relative;
+    background-color: #ffffcc;
+}
+.scrollup{   
+    margin: 32px;
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 10px;
+    z-index: 20;
+    border: #9b9898 solid 1px;
+    transition-duration: .4s;
+    
+}
+
+
+.scrollup a:hover{
+    color:#9b9898 ;
+}
+.scrollup{   
+    margin: 32px;
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 10px;
+    z-index: 20;
+    border: #9b9898 solid 1px;
+    transition-duration: .4s;
+    
+}
+.scrollup:hover{
+    background:white ;
+    border: #2e2e2e solid 1px;
+    transition-duration: .4s;
+    transition-timing-function: ease-in;
+
+}
+.scrollup a{
+    text-decoration: none;
+    color: white;
+
+}
+.scrollup a:hover{
+    color:#9b9898 ;
+}
+
+.sec1{
+    height: 520px;
+    width:100%;
+    background:url(image/img1.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+}
+.sec2{
+    height: 520px;
+    width:100%;
+    background:url(image/img2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.sec3{
+    height: 520px;
+    width:100%;
+    background:url(image/img3.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    
+
+}
+.sec4{
+    height: 520px;
+    width:100%;
+    background:url(image/img4.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.sec5{
+    height: 520px;
+    width:100%;
+    background:url(image/coca-cola-racial-equality-1440x848.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.sec6{
+    height: 520px;
+    width:100%;
+    background:url(image/coca-cola-covid-relief-efforts-1440x848.webp.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex ;
+    
+
+}
+.sec7{
+    height: 520px;
+    width:100%;
+    background:url(image/home-position-6\ \(1\).jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.borders{
+    height: 100%;
+    width: 40%;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.centre{
+    height: 520px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    
+}
+.centre2{
+    height: 520px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    
+}
+.ce2{
+    height: 337.5px;
+    width: 120px;
+    align-items: flex-end;
+}
+
+.dot{
+    height: 337.5px;
+    width: 120px;
+    padding: 150px 0px 0px 0px ;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+    
+}
+.dot2{
+    height: 337.5px;
+    width: 120px;
+    padding: 120px 0px 0px 0px ;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    align-items: center;
+    
+}
+.dotimg img{
+    height: 60px;
+    width: 50px;
+}
+
+.scroll{
+    height: 337.5px;
+    width: 120px;
+    padding: 150px 0px 0px 0px ;
+    display: flex;
+
+}
+.scrollimg{
+    width: 50px;
+    height: 150;
+    padding-bottom: 95px;
+    padding-left: 95px;
+
+}
+.border1{
+   
+    width: 337.5px;
+    /* background-color: #333333; */
+    padding: 215px  0px;
+    cursor: pointer;
+}
+.border2{
+    width: 337.5px;
+    /* background-color: #333333; */
+    padding: 180px  0px;
+    cursor: pointer;
+    
+}
+.firstline h5{
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-shadow: 1px 1px 10px black;
+    text-decoration: solid;
+    margin: 0px;
+    padding: 0%;
+
+}
+.secondline p{
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-shadow: 1px 1px 10px black;
+    padding: 0px;
+
+    
+
+}
+.thirdline {
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-shadow: 1px 1px 10px black;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.scrolls{
+    position: absolute;
+    bottom: 40px;
+    right: 680px;
+    background: url(icon/home-scroll-down--white.svg);
+    height: 50px;
+    width: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scrolltext{
+    position: absolute;
+    bottom: 16px;
+    right: 660px;
+    height: 22px;
+    width: 47px;
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: .75rem;
+    
+}
+
+.footer1{
+    width: 100%;
+    height: 75.5px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.footer-logo{
+    height: 75px;
+    width: 75%;
+    background: #4a4a4a;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    padding-right: 40px;
+    overflow: hidden;
+}
+.logofooter img{
+    height: 36.5px;
+    width: 215px;
+    position: relative;
+    top: 40px;
+    
+    
+
+}
+.logo-set{
+    height: 16.6px;
+    width: 1152.69px;
+    background: #4a4a4a;
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+}
+.logo-type {
+    padding-left:  0px; 
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 11px;
+    text-shadow: 1px 1px 5px black;
+    word-spacing: 5px;
+    padding-right: 15px;
+    display: block;
+    text-decoration: none;
+
+}
+.footer-2{
+    height: 106.57px;
+    width:100%;
+    background: #4a4a4a;
+    position: absolute;
+}
+.footer-2sec{
+    height: 40.98px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    display: block;
+    position: absolute;
+    
+}
+.footerwriting{
+    width: 454.12px;
+    height: 22.43px;
+    margin-left: 100px;
+    position: absolute;
+
+}
+.footerwriting1{
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 10px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.footerwriting2{
+    position: relative;
+    width: 454.12px;
+    height: 15.23px;
+    top: 7px;
+    display: flex;
+    
+
+}
+.link{
+    padding-right: 15px;
+    
+    color: rgb(238, 229, 229);
+    font-family:  "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 10px;
+    text-shadow: 1px 1px 10px black;
+    text-decoration: none;
+}
+.socialmedialogo{
+    height: 40.23px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -72px;
+}
+.socialmedialogosec{
+    padding-right: 10px;
+}
+
+
+.leftarrow{
+    position: relative;
+    height: 25px;
+    width: 20px;
+    margin-left: 5px;
+    z-index: 50;
+}
+
+.leftarrow:hover{
+    position: relative;
+    height: 25px;
+    width: 20px;
+    margin-left: 5px;
+    z-index: 50;
+    
+}
